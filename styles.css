@@ -1,0 +1,45 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 40px;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #444;
+    cursor: pointer;
+    margin-bottom: 5px; /* 减少段落间距以保持简约风格 */
+}
+
+h3:hover {
+    color: #007bff; /* 鼠标悬停时改变颜色 */
+}
+
+.translation {
+    display: none;
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 20px; /* 翻译段落间距 */
+    padding-left: 20px; /* 翻译文本的缩进效果 */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+i {
+    font-style: normal; /* This will override the italics */
+}
+
+/* If there is a specific class applied to the italicized text, you can target that class instead. For example, if the class is named .italic-text, your CSS would look like this: */
+.italic-text {
+    font-style: normal;
+}
+
